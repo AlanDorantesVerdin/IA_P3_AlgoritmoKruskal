@@ -327,6 +327,6 @@ if __name__ == "__main__":
     print("  → (flecha derecha): Avanzar al siguiente paso")
     print("  q: Cerrar visualización")
     
-    # Ejecutar para MST Mínimo
+    # Ejecutar para MST Mínimo o Maximo
     kruskal_viz = KruskalVisual(G, minimize=True)
     kruskal_viz.visualize()
